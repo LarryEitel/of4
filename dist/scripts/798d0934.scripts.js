@@ -1,1 +1,0 @@
-(function(){"use strict";angular.module("of4App",[]).config(["$routeProvider",function(r){return r.when("/",{templateUrl:"views/main.html",controller:"MainCtrl"}).otherwise({redirectTo:"/"})}])}).call(this),function(){"use strict";angular.module("of4App").controller("MainCtrl",["$scope",function(r){return r.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]}])}.call(this);
