@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="stylesheet" href="styles/fd675c85.main.css">
+    <link rel="stylesheet" href="styles/a4517a54.main.css">
   </head>
   <body ng-app="of4App">
     <!--[if lt IE 7]>
@@ -23,22 +23,96 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+    <!--<div class="container" ng-view></div>-->
+    <!-- NAVBAR -->
+    <div class="navbar navbar-fixed-top">
+
+        <div class="navbar-inner">
+            <table class="nav pull">
+                <tr>
+                    <td>
+                        <a href="#/" id="home-button">
+                            <img title="Home" src="img/home.png">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+
+            <table class="nav pull-right">
+                <tr>
+                    <td id="map-button" ng-show="!mapShown()">
+                        <a href="#/map">
+                            <img title="Map" src="img/map.png">
+                        </a>
+                    </td>
+
+                    <td id="list-button" ng-show="mapShown()">
+                        <a href="#/list">
+                            <img title="List" src="img/list.png">
+                        </a>
+                    </td>
+
+                    <td id="map-position-button" ng-show="mapShown()">
+                        <img title="Position" src="img/position.png">
+                    </td>
+
+                    <td id="map-add-button" ng-show="mapShown()">
+                        <img title="Add" src="img/add.png">
+                    </td>
+
+                    <!--
+                        TODO: check if positionTracking is on and current position is not 'close' (how?), prompt to navigate from current position to this 'center' point. Or if user has a 'home' position (private), offer to get directions home.
+                        The following will return directions from saddr to daddr:
+                        http://maps.google.com/?saddr=9.993552791991132,-84.20888416469096&daddr=9.9829723,-84.1699572
+                    -->
+                    <td id="map-directions-button" ng-show="mapShown()">
+                        <a href="https://maps.google.com/maps?q={{mapCenter.lat}},{{mapCenter.lng}}&t={{mapType}}&z={{mapZoom}}">
+                            <img title="Directions" src="img/directions.png">
+                        </a>
+                    </td>
+
+                    <td id="search-button">
+                        <a href="#/search">
+                            <img title="Search" src="img/search.png">
+                        </a>
+                    </td>
+
+                    <td id="layers-button" ng-show="mapShown()">
+                        <img title="Layers" src="img/layers.png">
+                    </td>
+
+                    <td id="menu-button">
+                        <a href="#/menu">
+                            <img title="Menu" src="img/menu.png">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- MAIN VIEW -->
+    <div class="container-fluid" ng-hide="mapShown()" ng-view=""></div>
+
+    <!-- MAP CANVAS ELEMENT -->
+    <div id="map"></div>
+
+    <!-- MAP CROSSHAIR ELEMENT -->
+    <div id="map-crosshair" ng-show="mapShown()">
+        <img src="img/crosshair.png">
+    </div>
+
+
+
+
 
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-resource.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-cookies.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-sanitize.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
 
-    <script src="scripts/2e7c4807.scripts.js"></script>
+    <script src="scripts/ed9967c5.scripts.js"></script>
 
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
   </body>
 </html>

@@ -2,11 +2,17 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/app/scripts/services/map.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/app.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/controllers/main.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/controllers/map.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/scripts/services/map.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/app.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/controllers/main.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/map.js" />
     </CLASSES>
     <SOURCES />
   </library>
