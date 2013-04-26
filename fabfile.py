@@ -7,7 +7,7 @@ fab               = FABRIC['live']
 
 env.hosts         = fab['HOSTS']
 env.projects_home = '%s' % fab['PROJECTS_HOME']
-env.project_home  = '%s%s' % (fab['PROJECTS_HOME'], fab['PROJECT_FOLDER'])
+env.project_home  = '%s%s' % (fab['PROJECTS_HOME'], fab['PROJECT_NAME'])
 
 if 'ADMIN_PW' in fab: env.password = fab['ADMIN_PW']
 env.key_filename = ["C:/Users/Larry/.ssh/id_rsa.pub"]
