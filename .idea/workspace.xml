@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82e01941-e2db-4413-b115-9d70a9dcf622" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-    </list>
+    <list default="true" id="82e01941-e2db-4413-b115-9d70a9dcf622" name="Default" comment="" />
     <ignored path="of4.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1366994429854" ignored="false" />
@@ -38,8 +36,11 @@
       <file leaf-file-name="main.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="8" column="5" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1367009079896" expanded="true" signature="110:183" placeholder="..." />
+                <marker date="1367009079896" expanded="true" signature="133:183" placeholder="[...]" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,7 +48,7 @@
       <file leaf-file-name="main.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/spec/controllers/main.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="14" selection-start="453" selection-end="453" vertical-scroll-proportion="0.37297922">
+            <state line="19" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.37297922">
               <folding />
             </state>
           </provider>
@@ -207,7 +208,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="977" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -298,14 +299,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="8" column="5" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1367009079896" expanded="true" signature="110:183" placeholder="..." />
+            <marker date="1367009079896" expanded="true" signature="133:183" placeholder="[...]" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/spec/controllers/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="453" selection-end="453" vertical-scroll-proportion="0.37297922">
+        <state line="19" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.37297922">
           <folding />
         </state>
       </provider>

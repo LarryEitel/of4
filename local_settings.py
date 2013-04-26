@@ -1,15 +1,5 @@
 # -*- coding: utf-8 -*-
 
-TESTING          = False
-DEBUG            = False
-CSRF_ENABLED     = True
-    
-MONGO_HOST              = 'localhost'
-MONGO_PORT              = 27017
-MONGO_DBNAME            = 'exi'
-MONGO_USERNAME          = None
-MONGO_PASSWORD          = None    
-
 # fabric settings
 FABRIC = {
     'local': {
@@ -26,7 +16,8 @@ FABRIC = {
         'ADMIN_USER'   : 'larry',
         'KEY_FILENAME' : ["C:/Users/Larry/.ssh/id_rsa.pub"],
         'PROJECTS_HOME': '/home/www-data/www/',
-        'PROJECT_NAME' : 'of.xchg.com',
+        'PROJECT_FOLDER': 'of.xchg.com',
+        'PROJECT_NAME' : 'of4',
         'GIT_REPO'     : 'git@github.com:LarryEitel/of4.git'
     }
 }
