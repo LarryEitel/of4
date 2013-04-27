@@ -11,6 +11,13 @@
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="styles/a4517a54.main.css">
+
+    <style>
+      .angular-google-map {
+          display: block;
+      }
+    </style>
+
   </head>
   <body ng-app="of4App">
     <!--[if lt IE 7]>
@@ -102,8 +109,10 @@
         <img src="img/crosshair.png">
     </div>
 
-
-
+    <div ng-controller="MapsController">
+        <div class="google-map" center="centerProperty" zoom="zoomProperty" markers="markersProperty" latitude="clickedLatitudeProperty" longitude="clickedLongitudeProperty" mark-click="true" draggable="true" style="height: 200px; width: 200%">
+        </div>
+    </div>
 
 
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
@@ -112,7 +121,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-sanitize.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
 
-    <script src="scripts/ed9967c5.scripts.js"></script>
+    <script src="scripts/777cad88.scripts.js"></script>
 
   </body>
 </html>

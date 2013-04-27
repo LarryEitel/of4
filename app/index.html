@@ -15,6 +15,13 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/app.css">
     <!-- endbuild -->
+
+    <style>
+      .angular-google-map {
+          display: block;
+      }
+    </style>
+
   </head>
   <body ng-app="of4App">
     <!--[if lt IE 7]>
@@ -106,8 +113,18 @@
         <img src="img/crosshair.png" />
     </div>
 
-
-
+    <!--<div ng-controller="MapsController">-->
+        <!--<div class="google-map"-->
+             <!--center="centerProperty"-->
+             <!--zoom="zoomProperty"-->
+             <!--markers="markersProperty"-->
+             <!--latitude="clickedLatitudeProperty"-->
+             <!--longitude="clickedLongitudeProperty"-->
+             <!--mark-click="true"-->
+             <!--draggable="true"-->
+             <!--style="height: 200px; width: 200%">-->
+        <!--</div>-->
+    <!--</div>-->
 
 
     <script src="components/angular/angular.js"></script>
@@ -117,9 +134,11 @@
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
 
     <!-- build:js(.tmp) scripts/scripts.js -->
+    <!--<script src="scripts/components/angular-google-maps.js"></script>-->
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/map.js"></script>
+    <!--<script src="scripts/controllers/maps.js"></script>-->
     <script src="scripts/services/map.js"></script>
     <!-- endbuild -->
 
