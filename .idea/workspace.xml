@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82e01941-e2db-4413-b115-9d70a9dcf622" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\Thumbs.db" afterPath="$PROJECT_DIR$/app/images/Thumbs.db" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\add.png" afterPath="$PROJECT_DIR$/app/images/add.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\blue-dot.png" afterPath="$PROJECT_DIR$/app/images/blue-dot.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\clearmap.png" afterPath="$PROJECT_DIR$/app/images/clearmap.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\crosshair.png" afterPath="$PROJECT_DIR$/app/images/crosshair.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\directions.png" afterPath="$PROJECT_DIR$/app/images/directions.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/app/images/glyphicons-halflings-white.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\glyphicons-halflings.png" afterPath="$PROJECT_DIR$/app/images/glyphicons-halflings.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\help.png" afterPath="$PROJECT_DIR$/app/images/help.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\home.png" afterPath="$PROJECT_DIR$/app/images/home.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\layers.png" afterPath="$PROJECT_DIR$/app/images/layers.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\list.png" afterPath="$PROJECT_DIR$/app/images/list.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\map.png" afterPath="$PROJECT_DIR$/app/images/map.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\menu.png" afterPath="$PROJECT_DIR$/app/images/menu.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\position.png" afterPath="$PROJECT_DIR$/app/images/position.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\positiondots.png" afterPath="$PROJECT_DIR$/app/images/positiondots.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\search.png" afterPath="$PROJECT_DIR$/app/images/search.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\signout.png" afterPath="$PROJECT_DIR$/app/images/signout.png" />
-      <change type="MOVED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\img\white-dot.png" afterPath="$PROJECT_DIR$/app/images/white-dot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/886f2abf.scripts.js" afterPath="$PROJECT_DIR$/dist/scripts/886f2abf.scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/angular-ui/test/lib/angular/angular-1.0.0rc4.js" afterPath="$PROJECT_DIR$/dist/components/angular-ui/test/lib/angular/angular-1.0.0rc4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/angular-ui/test/lib/angular/angular-1.0.0rc5.js" afterPath="$PROJECT_DIR$/dist/components/angular-ui/test/lib/angular/angular-1.0.0rc5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/angular-resource/angular-resource.js" afterPath="$PROJECT_DIR$/dist/components/angular-resource/angular-resource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/angular-sanitize/angular-sanitize.js" afterPath="$PROJECT_DIR$/dist/components/angular-sanitize/angular-sanitize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/angular-sanitize/angular-sanitize.min.js" afterPath="$PROJECT_DIR$/dist/components/angular-sanitize/angular-sanitize.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/angular-scenario/angular-scenario.js" afterPath="$PROJECT_DIR$/dist/components/angular-scenario/angular-scenario.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/angular/angular.js" afterPath="$PROJECT_DIR$/dist/components/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/angular-ui/test/lib/angular-1.0.1/angular.js" afterPath="$PROJECT_DIR$/dist/components/angular-ui/test/lib/angular-1.0.1/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/bootstrap.css" afterPath="$PROJECT_DIR$/app/styles/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/angular-ui/test/lib/jquery/jquery-ui-1.8.18.js" afterPath="$PROJECT_DIR$/dist/components/angular-ui/test/lib/jquery/jquery-ui-1.8.18.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/map.coffee" afterPath="$PROJECT_DIR$/app/scripts/services/map.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/map.js" afterPath="$PROJECT_DIR$/app/scripts/services/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/angular-ui/test/lib/tinymce/tiny_mce.js" afterPath="$PROJECT_DIR$/dist/components/angular-ui/test/lib/tinymce/tiny_mce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
     </list>
     <ignored path="of4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,6 +50,8 @@
     <file path="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/request/node_modules/hawk/node_modules/boom/package.json" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367437357373" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/bower/node_modules/unzip/node_modules/setimmediate/package.json" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367437357373" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/grunt-karma/node_modules/karma/adapter/lib/angular-scenario.js" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367437357373" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/index.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367437460756" ignored="false" />
+    <file path="/main.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367438311311" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,10 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="64" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="0" selection-start="5510" selection-end="5510" vertical-scroll-proportion="-31.807692">
+            <state line="90" column="20" selection-start="3817" selection-end="3817" vertical-scroll-proportion="0.6916566">
               <folding />
             </state>
           </provider>
@@ -142,15 +120,6 @@
         <entry file="file://$PROJECT_DIR$/app/scripts/services/map.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state line="273" column="0" selection-start="7662" selection-end="7662" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="55" selection-start="3856" selection-end="3856" vertical-scroll-proportion="0.5103926">
               <folding />
             </state>
           </provider>
@@ -177,10 +146,11 @@
         <option value="$PROJECT_DIR$/app/styles/app.css" />
         <option value="$PROJECT_DIR$/app/scripts/services/map.js" />
         <option value="$PROJECT_DIR$/component.json" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/services/map.coffee" />
         <option value="$PROJECT_DIR$/app/scripts/app.coffee" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -244,6 +214,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="of4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="of4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -483,17 +471,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="1" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0" />
+        <state line="72" column="1" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component.json">
@@ -517,23 +511,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/components/angular-google-maps.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="0" selection-start="5510" selection-end="5510" vertical-scroll-proportion="-31.807692">
           <folding />
         </state>
       </provider>
@@ -552,9 +532,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.coffee">
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+        <state line="243" column="45" selection-start="5808" selection-end="5808" vertical-scroll-proportion="4.770208">
           <folding />
         </state>
       </provider>
@@ -566,9 +546,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="55" selection-start="3856" selection-end="3856" vertical-scroll-proportion="0.5103926">
+        <state line="7" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="64" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="20" selection-start="3817" selection-end="3817" vertical-scroll-proportion="0.6916566">
           <folding />
         </state>
       </provider>
