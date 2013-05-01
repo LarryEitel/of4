@@ -139,7 +139,7 @@ var START_TAG_REGEXP = /^<\s*([\w:-]+)((?:\s+[\w:-]+(?:\s*=\s*(?:(?:"[^"]*")|(?:
 
 // Safe Void Elements - HTML5
 // http://dev.w3.org/html5/spec/Overview.html#void-elements
-var voidElements = makeMap("area,br,col,hr,img,wbr");
+var voidElements = makeMap("area,br,col,hr,images,wbr");
 
 // Elements that you can, intentionally, leave open (and which close themselves)
 // http://dev.w3.org/html5/spec/Overview.html#optional-tags
@@ -154,7 +154,7 @@ var blockElements = angular.extend({}, optionalEndTagBlockElements, makeMap("add
 
 // Inline Elements - HTML5
 var inlineElements = angular.extend({}, optionalEndTagInlineElements, makeMap("a,abbr,acronym,b,bdi,bdo," +
-        "big,br,cite,code,del,dfn,em,font,i,img,ins,kbd,label,map,mark,q,ruby,rp,rt,s,samp,small," +
+        "big,br,cite,code,del,dfn,em,font,i,images,ins,kbd,label,map,mark,q,ruby,rp,rt,s,samp,small," +
         "span,strike,strong,sub,sup,time,tt,u,var"));
 
 

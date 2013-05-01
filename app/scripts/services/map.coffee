@@ -189,7 +189,7 @@ class GMap
       try
         window.userPositionMarker.setMap(null)
 
-      icon = 'img/blue-dot.png'
+      icon = 'images/blue-dot.png'
       # purpose is to center marker in crosshair
       image = new google.maps.MarkerImage(icon,
         new google.maps.Size(16, 16),

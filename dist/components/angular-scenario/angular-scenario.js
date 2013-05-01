@@ -19951,12 +19951,12 @@ var htmlAnchorDirective = valueFn({
  *
  * The buggy way to write it:
  * <pre>
- * <img src="http://www.gravatar.com/avatar/{{hash}}"/>
+ * <images src="http://www.gravatar.com/avatar/{{hash}}"/>
  * </pre>
  *
  * The correct way to write it:
  * <pre>
- * <img ng-src="http://www.gravatar.com/avatar/{{hash}}"/>
+ * <images ng-src="http://www.gravatar.com/avatar/{{hash}}"/>
  * </pre>
  *
  * @element IMG

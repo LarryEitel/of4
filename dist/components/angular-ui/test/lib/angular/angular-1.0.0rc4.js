@@ -7786,7 +7786,7 @@ var START_TAG_REGEXP = /^<\s*([\w:-]+)((?:\s+[\w:-]+(?:\s*=\s*(?:(?:"[^"]*")|(?:
 
 // Safe Void Elements - HTML5
 // http://dev.w3.org/html5/spec/Overview.html#void-elements
-var voidElements = makeMap("area,br,col,hr,img,wbr");
+var voidElements = makeMap("area,br,col,hr,images,wbr");
 
 // Elements that you can, intentionally, leave open (and which close themselves)
 // http://dev.w3.org/html5/spec/Overview.html#optional-tags
@@ -7801,7 +7801,7 @@ var blockElements = extend({}, optionalEndTagBlockElements, makeMap("address,art
 
 // Inline Elements - HTML5
 var inlineElements = extend({}, optionalEndTagInlineElements, makeMap("a,abbr,acronym,b,bdi,bdo," +
-        "big,br,cite,code,del,dfn,em,font,i,img,ins,kbd,label,map,mark,q,ruby,rp,rt,s,samp,small," +
+        "big,br,cite,code,del,dfn,em,font,i,images,ins,kbd,label,map,mark,q,ruby,rp,rt,s,samp,small," +
         "span,strike,strong,sub,sup,time,tt,u,var"));
 
 
@@ -10184,12 +10184,12 @@ var htmlAnchorDirective = valueFn({
  *
  * The buggy way to write it:
  * <pre>
- * <img src="http://www.gravatar.com/avatar/{{hash}}"/>
+ * <images src="http://www.gravatar.com/avatar/{{hash}}"/>
  * </pre>
  *
  * The correct way to write it:
  * <pre>
- * <img ng-src="http://www.gravatar.com/avatar/{{hash}}"/>
+ * <images ng-src="http://www.gravatar.com/avatar/{{hash}}"/>
  * </pre>
  *
  * @element IMG

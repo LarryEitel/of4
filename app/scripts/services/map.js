@@ -228,7 +228,7 @@
         try {
           window.userPositionMarker.setMap(null);
         } catch (_error) {}
-        icon = 'img/blue-dot.png';
+        icon = 'images/blue-dot.png';
         image = new google.maps.MarkerImage(icon, new google.maps.Size(16, 16), new google.maps.Point(0, 0), new google.maps.Point(8, 3));
         return window.userPositionMarker = new google.maps.Marker({
           icon: image,
