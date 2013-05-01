@@ -263,7 +263,7 @@
     };
 
     GMap.prototype.updateLocation = function() {
-      return this.location.url("/maps?q=" + this.center.lat + "," + this.center.lng + "&t=" + this.mapType + "&z=" + this.zoom);
+      return this.location.url("/map?q=" + this.center.lat + "," + this.center.lng + "&t=" + this.mapType + "&z=" + this.zoom);
     };
 
     GMap.prototype.onDragStart = function() {

@@ -22,4 +22,5 @@ angular.module('of4App', [])
 
         # return true if path is for map
         rootScope.mapShown = ->
+            # console.log 'rootScope.mapShown.location.path ' + $location.path()
             return $location.path().indexOf('/map') > -1
