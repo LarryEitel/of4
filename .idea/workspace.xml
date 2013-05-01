@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82e01941-e2db-4413-b115-9d70a9dcf622" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-    </list>
+    <list default="true" id="82e01941-e2db-4413-b115-9d70a9dcf622" name="Default" comment="" />
     <ignored path="of4.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367415536228" ignored="false" />
@@ -50,8 +47,9 @@
     <file path="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/request/node_modules/hawk/node_modules/boom/package.json" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367437357373" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/bower/node_modules/unzip/node_modules/setimmediate/package.json" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367437357373" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/grunt-karma/node_modules/karma/adapter/lib/angular-scenario.js" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367437357373" ignored="false" />
-    <file path="$PROJECT_DIR$/dist/index.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367437460756" ignored="false" />
-    <file path="/main.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367438311311" ignored="false" />
+    <file path="/main.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367439131371" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/scripts/services/map.js" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367438784698" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/index.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367438784698" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,19 +87,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="64" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.3076923">
+            <state line="2" column="34" selection-start="78" selection-end="78" vertical-scroll-proportion="0.04047619">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="20" selection-start="3817" selection-end="3817" vertical-scroll-proportion="0.6916566">
+            <state line="90" column="20" selection-start="3817" selection-end="3817" vertical-scroll-proportion="-22.0">
               <folding />
             </state>
           </provider>
@@ -149,8 +147,8 @@
         <option value="$PROJECT_DIR$/app/scripts/services/map.coffee" />
         <option value="$PROJECT_DIR$/app/scripts/app.coffee" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
       </list>
     </option>
   </component>
@@ -546,6 +544,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="20" selection-start="3817" selection-end="3817" vertical-scroll-proportion="-22.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
@@ -555,14 +560,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="64" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="20" selection-start="3817" selection-end="3817" vertical-scroll-proportion="0.6916566">
+        <state line="2" column="34" selection-start="78" selection-end="78" vertical-scroll-proportion="0.04047619">
           <folding />
         </state>
       </provider>
