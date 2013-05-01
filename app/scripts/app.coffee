@@ -9,8 +9,8 @@ angular.module('of4App', [])
       .when '/map',
         templateUrl: 'views/map.html',
         controller: 'MapCtrl'
-      .otherwise
-        redirectTo: '/'
+#      .otherwise
+#        redirectTo: '/'
     
   .run ($rootScope, $location) ->
     rootScope = $rootScope

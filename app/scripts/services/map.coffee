@@ -29,17 +29,17 @@ class GMarker
     # @marker.setTitle(title)
     @marker.setMap(@map)
 
-  click: =>
-    infoWindow = new InfoWindow()
-
-    # testing
-    $('a#place-item-move.btn').live 'click', (event) ->
-      #console.log 'event', event
-      #event.preventDefault()
-      console.log 'place-item-move'
-
-
-    infoWindow.self.open(@map, @marker)
+#  click: =>
+#    infoWindow = new InfoWindow()
+#
+#    # testing
+#    $('a#place-item-move.btn').live 'click', (event) ->
+#      #console.log 'event', event
+#      #event.preventDefault()
+#      console.log 'place-item-move'
+#
+#
+#    infoWindow.self.open(@map, @marker)
 
 
   move: (event) =>
@@ -179,7 +179,7 @@ class GMap
     window.navigator.geolocation.clearWatch(watchID)
     try
       window.userPositionMarker.setMap(null)
-      
+
     @positionTracking.state = false
 
   geoSuccessCallback = (position) =>
@@ -199,7 +199,7 @@ class GMap
       window.userPositionMarker = new google.maps.Marker(
         icon: image
         position: window.pos
-        # want to center on the user position initially 
+        # want to center on the user position initially
         # but allow user to pan around without map auto centering
         map: window.map
         title: 'You are here.'

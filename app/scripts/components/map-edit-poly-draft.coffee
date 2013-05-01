@@ -1,4 +1,6 @@
 # See: http://developers.cartodb.com/examples/editing-polygons.html
+# Also: http://snipplr.com/view/38270/google-maps-api-v3--enableediting-polylines/
+
 # Pick a random lat & lng at the start
 drawPolygon = (id, poly) ->
   

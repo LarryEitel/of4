@@ -2,16 +2,206 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82e01941-e2db-4413-b115-9d70a9dcf622" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\scripts\ed9967c5.scripts.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\scripts\controllers\maps.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\app\scripts\controllers\maps.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\404.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-cookies\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-cookies\angular-cookies.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-cookies\angular-cookies.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-cookies\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-mocks\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-mocks\angular-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-mocks\angular-mocks.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-mocks\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-resource\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-resource\angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-resource\angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-resource\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-sanitize\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-sanitize\angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-sanitize\angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-sanitize\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-scenario\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-scenario\angular-scenario.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-scenario\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-scenario\jstd-scenario-adapter-config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-scenario\jstd-scenario-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\build\angular-ui-ieshiv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\build\angular-ui-ieshiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\build\angular-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\build\angular-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\build\angular-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\build\angular-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\common\ieshiv\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\common\ieshiv\ieshiv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\common\module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\common\stylesheets\angular-ui.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\common\stylesheets\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\grunt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\animate\animate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\animate\test\animateSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\calendar\calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\calendar\dependencies.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\calendar\test\calendarSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\codemirror\codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\codemirror\dependencies.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\codemirror\test\codemirrorSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\currency\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\currency\currency.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\currency\stylesheets\currency.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\currency\test\currencySpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\date\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\date\date.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\date\dependencies.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\date\test\dateSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\event\event.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\event\test\eventSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\if\if.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\if\test\ifSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\jq\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\jq\jq.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\jq\test\jqSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\keypress\keypress.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\keypress\test\keydownSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\keypress\test\keypressSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\keypress\test\keyupSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\map\map.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\map\test\mapSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\mask\dependencies.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\mask\mask.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\mask\test\maskSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\reset\reset.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\reset\stylesheets\reset.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\reset\test\resetSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\route\route.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\route\test\routeSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\scrollfix\scrollfix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\scrollfix\test\scrollfixSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\select2\dependencies.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\select2\select2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\select2\test\select2Spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\showhide\showhide.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\showhide\test\showhideSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\sortable\REDME.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\sortable\sortable.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\sortable\test\sortableSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\tinymce\dependencies.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\tinymce\test\tinymceSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\tinymce\tinymce.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\validate\test\validateSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\directives\validate\validate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\filters\format\format.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\filters\format\test\formatSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\filters\highlight\highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\filters\highlight\highlight.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\filters\highlight\test\highlightSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\filters\inflector\inflector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\filters\inflector\test\inflectorSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\filters\unique\test\uniqueSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\modules\filters\unique\unique.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\templates\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\templates\dependencies.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\templates\stylesheets\template.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\templates\template.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\templates\test\templateSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\angular-1.0.1\angular-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\angular-1.0.1\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\angular\angular-1.0.0rc4.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\angular\angular-1.0.0rc5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\angular\angular-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\bootstrap\bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\calendar\calendar.js.min" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\codemirror\codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\googlemaps\googlemaps.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\jquery\jquery-1.7.2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\jquery\jquery-ui-1.8.18.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\maskedinput\jquery.maskedinput-1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\select2\select2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\tinymce\jquery.tinymce.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\lib\tinymce\tiny_mce.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular-ui\test\test-config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\angular\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\CHANGES" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\CONTRIBUTORS.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\es5-sham.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\es5-sham.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\es5-shim.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\es5-shim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\minify" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\helpers\h-kill.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\helpers\h-matchers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\helpers\h.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\lib\jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\lib\jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\lib\jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\lib\jasmine_favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\lib\json2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\spec\s-array.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\spec\s-date.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\spec\s-function.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\spec\s-object.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\es5-shim\tests\spec\s-string.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\build.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\jsl.conf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\lib\json3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\lib\json3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\page\background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\page\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\page\page.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\page\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\test\test_browser.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\test\test_json3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\vendor\closure-compiler.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\vendor\curl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\vendor\prototype.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\components\json3\vendor\require.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\scripts\777cad88.scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\styles\a4517a54.main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\views\main.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.coffee" afterPath="$PROJECT_DIR$/app/scripts/app.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component.json" afterPath="$PROJECT_DIR$/component.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.coffee" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/components/map-edit-poly-draft.coffee" afterPath="$PROJECT_DIR$/app/scripts/components/map-edit-poly-draft.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/map.coffee" afterPath="$PROJECT_DIR$/app/scripts/services/map.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/map.js" afterPath="$PROJECT_DIR$/app/scripts/services/map.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="of4.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1366994429854" ignored="false" />
-    <file path="/index.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367070478962" ignored="false" />
+    <file path="/Dummy.txt" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367415536228" ignored="false" />
+    <file path="/index.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367434501039" ignored="false" />
+    <file path="/component.json" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367434147043" ignored="false" />
+    <file path="/Gruntfile.js" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367436823877" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,25 +224,34 @@
       <file leaf-file-name="app.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+            <state line="18" column="19" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <file leaf-file-name="main.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="7" column="5" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="53" selection-start="4651" selection-end="4651" vertical-scroll-proportion="2.4050786">
+            <state line="135" column="67" selection-start="5480" selection-end="5480" vertical-scroll-proportion="-31.807692">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/map.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,16 +260,16 @@
       <file leaf-file-name="map.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/map.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="39" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
+            <state line="273" column="61" selection-start="7659" selection-end="7659" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/map.js">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="33" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.0">
+            <state line="284" column="6" selection-start="6564" selection-end="6564" vertical-scroll-proportion="0.5092379">
               <folding />
             </state>
           </provider>
@@ -94,11 +293,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/app.coffee" />
         <option value="$PROJECT_DIR$/app/styles/app.css" />
-        <option value="$PROJECT_DIR$/app/scripts/services/map.coffee" />
         <option value="$PROJECT_DIR$/app/scripts/services/map.js" />
+        <option value="$PROJECT_DIR$/component.json" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/services/map.coffee" />
+        <option value="$PROJECT_DIR$/app/scripts/app.coffee" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
       </list>
     </option>
   </component>
@@ -161,20 +362,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="of4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="of4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -196,6 +383,10 @@
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app.coffee" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -207,13 +398,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".tmp" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map.coffee" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -225,7 +424,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".tmp" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -234,6 +433,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="of4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="of4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,8 +463,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="of4" serverId="477481fa-aa5f-4907-9626-2a00d21853ae">
     <servers>
@@ -272,6 +490,9 @@
       <option name="testName" />
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -287,23 +508,23 @@
     <frame x="1" y="0" width="1227" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28755364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29270387" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -367,16 +588,50 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/spec/controllers/main.coffee">
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+        <state line="108" column="33" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.coffee">
+    <entry file="file://$PROJECT_DIR$/test/spec/controllers/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="1" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="0.3440476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="275" column="68" selection-start="8917" selection-end="8917" vertical-scroll-proportion="-16.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -388,51 +643,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/app/scripts/components/angular-google-maps.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="1" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/map.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="33" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="53" selection-start="4651" selection-end="4651" vertical-scroll-proportion="2.4050786">
+        <state line="135" column="67" selection-start="5480" selection-end="5480" vertical-scroll-proportion="-31.807692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/map.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/map.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="273" column="61" selection-start="7659" selection-end="7659" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="284" column="6" selection-start="6564" selection-end="6564" vertical-scroll-proportion="0.5092379">
           <folding />
         </state>
       </provider>

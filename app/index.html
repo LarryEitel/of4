@@ -106,7 +106,7 @@
     <div class="container-fluid" ng-hide="mapShown()" ng-view></div>
 
     <!-- MAP CANVAS ELEMENT -->
-    <div id="map"></div>
+    <div id="map" ng-show="mapShown()"></div>
 
     <!-- MAP CROSSHAIR ELEMENT -->
     <div id="map-crosshair" ng-show="mapShown()">
@@ -127,6 +127,7 @@
     <!--</div>-->
 
 
+    <script src="components/jquery/jquery.min.js"></script>
     <script src="components/angular/angular.js"></script>
     <script src="components/angular-resource/angular-resource.js"></script>
     <script src="components/angular-cookies/angular-cookies.js"></script>

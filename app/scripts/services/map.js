@@ -14,9 +14,6 @@
       this.move = function(event) {
         return GMarker.prototype.move.apply(_this, arguments);
       };
-      this.click = function() {
-        return GMarker.prototype.click.apply(_this, arguments);
-      };
       this.show = function() {
         return GMarker.prototype.show.apply(_this, arguments);
       };
@@ -47,15 +44,6 @@
     GMarker.prototype.show = function() {
       this.marker.setPosition(this.position);
       return this.marker.setMap(this.map);
-    };
-
-    GMarker.prototype.click = function() {
-      var infoWindow;
-      infoWindow = new InfoWindow();
-      $('a#place-item-move.btn').live('click', function(event) {
-        return console.log('place-item-move');
-      });
-      return infoWindow.self.open(this.map, this.marker);
     };
 
     GMarker.prototype.move = function(event) {

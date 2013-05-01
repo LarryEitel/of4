@@ -102,26 +102,35 @@
     <div class="container-fluid" ng-hide="mapShown()" ng-view=""></div>
 
     <!-- MAP CANVAS ELEMENT -->
-    <div id="map"></div>
+    <div id="map" ng-show="mapShown()"></div>
 
     <!-- MAP CROSSHAIR ELEMENT -->
     <div id="map-crosshair" ng-show="mapShown()">
         <img src="img/crosshair.png">
     </div>
 
-    <div ng-controller="MapsController">
-        <div class="google-map" center="centerProperty" zoom="zoomProperty" markers="markersProperty" latitude="clickedLatitudeProperty" longitude="clickedLongitudeProperty" mark-click="true" draggable="true" style="height: 200px; width: 200%">
-        </div>
-    </div>
+    <!--<div ng-controller="MapsController">-->
+        <!--<div class="google-map"-->
+             <!--center="centerProperty"-->
+             <!--zoom="zoomProperty"-->
+             <!--markers="markersProperty"-->
+             <!--latitude="clickedLatitudeProperty"-->
+             <!--longitude="clickedLongitudeProperty"-->
+             <!--mark-click="true"-->
+             <!--draggable="true"-->
+             <!--style="height: 200px; width: 200%">-->
+        <!--</div>-->
+    <!--</div>-->
 
 
+    <script src="components/jquery/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-resource.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-cookies.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-sanitize.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
 
-    <script src="scripts/777cad88.scripts.js"></script>
+    <script src="scripts/886f2abf.scripts.js"></script>
 
   </body>
 </html>
