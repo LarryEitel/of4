@@ -2,12 +2,18 @@
 (function() {
   'use strict';
   angular.module('of4App', []).config(function($routeProvider) {
-    return $routeProvider.when('/', {
-      templateUrl: 'views/main.html',
+    return $routeProvider.when('/menu', {
+      templateUrl: 'views/menu.html',
+      controller: 'MainCtrl'
+    }).when('/list', {
+      templateUrl: 'views/list.html',
       controller: 'MainCtrl'
     }).when('/map', {
       templateUrl: 'views/map.html',
-      controller: 'MapCtrl'
+      controller: 'MainCtrl'
+    }).otherwise({
+      templateUrl: 'views/main.html',
+      controller: 'MainCtrl'
     });
   }).run(function($rootScope, $location) {
     var rootScope;

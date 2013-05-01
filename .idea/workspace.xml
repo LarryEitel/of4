@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82e01941-e2db-4413-b115-9d70a9dcf622" name="Default" comment="" />
+    <list default="true" id="82e01941-e2db-4413-b115-9d70a9dcf622" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.coffee" afterPath="$PROJECT_DIR$/app/scripts/app.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.coffee" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/map.coffee" afterPath="$PROJECT_DIR$/app/scripts/services/map.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="of4.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367415536228" ignored="false" />
@@ -47,9 +55,11 @@
     <file path="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/request/node_modules/hawk/node_modules/boom/package.json" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367437357373" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/bower/node_modules/unzip/node_modules/setimmediate/package.json" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367437357373" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/grunt-karma/node_modules/karma/adapter/lib/angular-scenario.js" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367437357373" ignored="false" />
-    <file path="/main.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367439131371" ignored="false" />
-    <file path="$PROJECT_DIR$/.tmp/scripts/services/map.js" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367438784698" ignored="false" />
-    <file path="$PROJECT_DIR$/dist/index.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367438784698" ignored="false" />
+    <file path="/main.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367445031318" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/index.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367444183961" ignored="false" />
+    <file path="$PROJECT_DIR$/app/styles/bootstrap.css" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367444183961" ignored="false" />
+    <file path="/menu.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367445268472" ignored="false" />
+    <file path="/map.coffee" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367447047361" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +79,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+            <state line="24" column="56" selection-start="785" selection-end="785" vertical-scroll-proportion="0.47113165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="19" selection-start="59" selection-end="59" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -81,16 +109,16 @@
       <file leaf-file-name="main.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+            <state line="7" column="35" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="34" selection-start="78" selection-end="78" vertical-scroll-proportion="0.04047619">
+            <state line="2" column="44" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.3076923">
               <folding />
             </state>
           </provider>
@@ -99,17 +127,11 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="20" selection-start="3817" selection-end="3817" vertical-scroll-proportion="-22.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/map.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="34" column="29" selection-start="1164" selection-end="1164" vertical-scroll-proportion="-22.23077">
+              <folding>
+                <marker date="1367446911860" expanded="true" signature="1236:1473" placeholder="..." />
+                <marker date="1367446911860" expanded="true" signature="1305:1339" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,8 +139,17 @@
       <file leaf-file-name="map.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/map.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="273" column="0" selection-start="7662" selection-end="7662" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="133" column="0" selection-start="4111" selection-end="4111" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#409#738#0" expanded="false" />
+                <element signature="e#4264#4404#0" expanded="false" />
+                <element signature="e#4546#4719#0" expanded="false" />
+                <element signature="e#4756#5245#0" expanded="false" />
+                <element signature="e#5282#5386#0" expanded="false" />
+                <element signature="e#5437#5589#0" expanded="false" />
+                <element signature="e#5638#6478#0" expanded="false" />
+                <element signature="e#6551#7153#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,11 +175,13 @@
         <option value="$PROJECT_DIR$/app/styles/app.css" />
         <option value="$PROJECT_DIR$/app/scripts/services/map.js" />
         <option value="$PROJECT_DIR$/component.json" />
-        <option value="$PROJECT_DIR$/app/scripts/services/map.coffee" />
-        <option value="$PROJECT_DIR$/app/scripts/app.coffee" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/app/views/menu.html" />
+        <option value="$PROJECT_DIR$/app/scripts/app.coffee" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/services/map.coffee" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/main.coffee" />
       </list>
     </option>
   </component>
@@ -329,7 +362,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -360,6 +393,13 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -384,7 +424,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -455,25 +495,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="33" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/controllers/main.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -516,9 +537,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.coffee">
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+        <state line="243" column="45" selection-start="5808" selection-end="5808" vertical-scroll-proportion="4.770208">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="44" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="59" selection-end="59" vertical-scroll-proportion="-1.3076923">
           <folding />
         </state>
       </provider>
@@ -530,37 +572,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="45" selection-start="5808" selection-end="5808" vertical-scroll-proportion="4.770208">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/map.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="273" column="0" selection-start="7662" selection-end="7662" vertical-scroll-proportion="0.0">
+        <state line="57" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="0.3325444">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="20" selection-start="3817" selection-end="3817" vertical-scroll-proportion="-22.0">
-          <folding />
+        <state line="34" column="29" selection-start="1164" selection-end="1164" vertical-scroll-proportion="-22.23077">
+          <folding>
+            <marker date="1367446911860" expanded="true" signature="1236:1473" placeholder="..." />
+            <marker date="1367446911860" expanded="true" signature="1305:1339" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/map.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="0" selection-start="4111" selection-end="4111" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#409#738#0" expanded="false" />
+            <element signature="e#4264#4404#0" expanded="false" />
+            <element signature="e#4546#4719#0" expanded="false" />
+            <element signature="e#4756#5245#0" expanded="false" />
+            <element signature="e#5282#5386#0" expanded="false" />
+            <element signature="e#5437#5589#0" expanded="false" />
+            <element signature="e#5638#6478#0" expanded="false" />
+            <element signature="e#6551#7153#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+        <state line="7" column="35" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="34" selection-start="78" selection-end="78" vertical-scroll-proportion="0.04047619">
+        <state line="24" column="56" selection-start="785" selection-end="785" vertical-scroll-proportion="0.47113165">
           <folding />
         </state>
       </provider>
