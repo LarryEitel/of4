@@ -1,7 +1,9 @@
 'use strict'
 
 angular.module('of4App', [])
-    .config ($routeProvider) ->
+    .config ($routeProvider, $locationProvider) ->
+        $locationProvider.html5Mode(true) #.hashPrefix "!"
+
         $routeProvider
             .when '/menu',
                 templateUrl: 'views/menu.html',
@@ -12,9 +14,13 @@ angular.module('of4App', [])
             .when '/map',
                 templateUrl: 'views/map.html',
                 controller: 'MainCtrl'
+            .when '/',
+                templateUrl: 'views/main.html',
+                controller: 'MainCtrl'
             .otherwise
                 templateUrl: 'views/main.html'
                 controller: 'MainCtrl'
+
     
     .run ($rootScope, $location) ->
         rootScope = $rootScope
