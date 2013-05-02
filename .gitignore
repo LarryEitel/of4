@@ -2,6 +2,7 @@ node_modules
 # dist
 .tmp
 .sass-cache
-app/components
+# until yeoman handles using cdn
+# app/components
 logs
 local_settings.py
