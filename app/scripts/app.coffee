@@ -1,8 +1,7 @@
 'use strict'
 
 angular.module('of4App', [])
-    .config ($routeProvider, $locationProvider) ->
-        $locationProvider.html5Mode(true) # .hashPrefix "!"
+    .config ($routeProvider) ->
 
         $routeProvider
             .when '/menu',
@@ -11,9 +10,9 @@ angular.module('of4App', [])
             .when '/list',
                 templateUrl: 'views/list.html',
                 controller: 'MainCtrl'
-#            .when '/map',
-#                templateUrl: 'views/map.html',
-#                controller: 'MainCtrl'
+            .when '/map',
+                templateUrl: 'views/map.html',
+                controller: 'MainCtrl'
             .when '/',
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl'
@@ -25,8 +24,15 @@ angular.module('of4App', [])
     .run ($rootScope, $location) ->
         rootScope = $rootScope
         rootScope.navBarHeight = 40
+        rootScope.mapShownOnce = false
 
         # return true if path is for map
         rootScope.mapShown = ->
             # console.log 'rootScope.mapShown.location.path ' + $location.path()
-            return $location.path().indexOf('/map') > -1
+            mapShown = $location.path().indexOf('/map') > -1
+
+            # need way to force Google Maps to load initial map!!
+            if mapShown and not rootScope.mapShownOnce
+                rootScope.mapShownOnce = true
+
+            return mapShown

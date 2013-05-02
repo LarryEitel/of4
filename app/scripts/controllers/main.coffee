@@ -2,6 +2,7 @@
 
 angular.module('of4App')
     .controller 'MainCtrl', ($scope, GoogleMap) ->
-        $scope.map = null # GoogleMap
+        $scope.map = GoogleMap
+        $scope.map.resizeMapEl()
 
 

@@ -55,7 +55,7 @@
         <table class="nav pull">
             <tr>
                 <td>
-                    <a href="/" id="home-button">
+                    <a href="#/" id="home-button">
                         <img title="Home" src="images/home.png"/>
                     </a>
                 </td>
@@ -65,7 +65,7 @@
         <table class="nav pull-right">
             <tr>
                 <td id="map-button" ng-show="!mapShown()">
-                    <a href="/map">
+                    <a href="#/map">
                         <img title="Map" src="images/map.png"/>
                     </a>
                 </td>
@@ -91,13 +91,13 @@
                 </td>
 
                 <td id="search-button">
-                    <a href="/search">
+                    <a href="#/search">
                         <img title="Search" src="images/search.png"/>
                     </a>
                 </td>
 
                 <td id="list-button" ng-show="mapShown()">
-                    <a href="/list">
+                    <a href="#/list">
                         <img title="List" src="images/list.png"/>
                     </a>
                 </td>
@@ -107,7 +107,7 @@
                 </td>
 
                 <td id="menu-button">
-                    <a href="/menu">
+                    <a href="#/menu">
                         <img title="Menu" src="images/menu.png"/>
                     </a>
                 </td>
@@ -127,19 +127,6 @@
     <img src="images/crosshair.png"/>
 </div>
 
-<!--<div ng-controller="MapsController">-->
-<!--<div class="google-map"-->
-<!--center="centerProperty"-->
-<!--zoom="zoomProperty"-->
-<!--markers="markersProperty"-->
-<!--latitude="clickedLatitudeProperty"-->
-<!--longitude="clickedLongitudeProperty"-->
-<!--mark-click="true"-->
-<!--draggable="true"-->
-<!--style="height: 200px; width: 200%">-->
-<!--</div>-->
-<!--</div>-->
-
 
 <script src="components/jquery/jquery.min.js"></script>
 <script src="components/angular/angular.js"></script>
@@ -149,11 +136,11 @@
 <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
 
 <!-- build:js(.tmp) scripts/scripts.js -->
-<!--<script src="scripts/components/angular-google-maps.js"></script>-->
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/main.js"></script>
-<!--<script src="scripts/controllers/map.js"></script>-->
+<script src="scripts/controllers/map.js"></script>
 <!--<script src="scripts/controllers/maps.js"></script>-->
+<script src="scripts/services/map.js"></script>
 <!-- endbuild -->
 
 </body>

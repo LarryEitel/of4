@@ -160,7 +160,6 @@
       this.rootScope.mapCenter = this.center;
       this.rootScope.mapZoom = this.zoom;
       this.rootScope.mapType = this.mapType;
-      this.updateLocation();
     }
 
     GMap.prototype.getDirections = function() {
@@ -263,7 +262,9 @@
     };
 
     GMap.prototype.updateLocation = function() {
-      return this.location.url("/");
+      if (this.location.path() === "/map") {
+        return this.location.url("#/map?q=" + this.center.lat + "," + this.center.lng + "&t=" + this.mapType + "&z=" + this.zoom);
+      }
     };
 
     GMap.prototype.onDragStart = function() {

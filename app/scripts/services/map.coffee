@@ -68,7 +68,6 @@ class GMap
         else
             @center = options.center
 
-
         @zoom = parseInt(@location.search().z) || options.zoom
         @mapType = @location.search().t || options.mapType
 
@@ -132,8 +131,7 @@ class GMap
         @rootScope.mapZoom = @zoom
         @rootScope.mapType = @mapType
 
-        @updateLocation()
-
+        # @updateLocation()
 
     getDirections: =>
         console.log 'getDirections'
@@ -145,9 +143,6 @@ class GMap
         #console.log lat, lng
         marker = new GMarker(@map, lat, lng)
     # @places.create(territoryno: @preferences.get('territoryno'), point: "POINT (#{lat} #{lng})")
-
-
-
 
     onPositionButtonClick: =>
         if !@positionTracking.state
@@ -174,7 +169,6 @@ class GMap
                 {enableHighAccuracy: true})
 
             @positionTracking.state = true
-
 
     positionTrackGoTo: ->
         pos = window.pos
@@ -227,10 +221,9 @@ class GMap
         alert.html('<a class="close" href="#">×</a>' + msg);
         alert.insertBefore($('.span10'))
 
-
     updateLocation: ->
-        @location.url("/")
-        # @location.url("/map?q=#{@center.lat},#{@center.lng}&t=#{@mapType}&z=#{@zoom}")
+        if @location.path() == "/map"
+            @location.url("#/map?q=#{@center.lat},#{@center.lng}&t=#{@mapType}&z=#{@zoom}")
 
     onDragStart: =>
         @dragging = on

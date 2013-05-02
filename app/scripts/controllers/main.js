@@ -2,7 +2,8 @@
 (function() {
   'use strict';
   angular.module('of4App').controller('MainCtrl', function($scope, GoogleMap) {
-    return $scope.map = null;
+    $scope.map = GoogleMap;
+    return $scope.map.resizeMapEl();
   });
 
 }).call(this);
