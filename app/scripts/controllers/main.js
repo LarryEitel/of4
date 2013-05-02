@@ -2,7 +2,7 @@
 (function() {
   'use strict';
   angular.module('of4App').controller('MainCtrl', function($scope, GoogleMap) {
-    google.maps.trigger(map, 'resize');
+    GoogleMap.win[0].google.maps.event.trigger(map, 'resize');
     return $scope.map = GoogleMap;
   });
 

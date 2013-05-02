@@ -2,7 +2,7 @@
 
 angular.module('of4App')
     .controller 'MainCtrl', ($scope, GoogleMap) ->
-        google.maps.trigger(map, 'resize')
+        GoogleMap.win[0].google.maps.event.trigger(map, 'resize')
         $scope.map = GoogleMap
         # $scope.$apply()
 
