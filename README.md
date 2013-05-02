@@ -4,7 +4,7 @@ AngularJS Yeoman sandbox
 
 Useful commands
 
-    # production uses this for log file when gunicorn is running
+    cd /home/www-data/www/of4
     sudo rm -f /home/www-data/www/of4/logs/node.log
     tail /home/www-data/www/of4/logs/node.log
 
@@ -17,6 +17,9 @@ Useful commands
     ps aux | grep 'forever'
     ps -ef | grep 'forever' | grep -v grep | awk '{print $2}'
     sudo kill -9 `ps -ef | grep 'forever' | grep -v grep | awk '{print $2}'`
+
+    forever start /home/www-data/www/of4/dist/simplehttpserver.js /home/www-data/www/of4/dist
+    forever stop /home/www-data/www/of4/dist/simplehttpserver.js
 
     sudo /etc/init.d/nginx restart
     sudo vi /etc/nginx/sites-available/of.xchg.com
