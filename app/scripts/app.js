@@ -9,9 +9,6 @@
     }).when('/list', {
       templateUrl: 'views/list.html',
       controller: 'MainCtrl'
-    }).when('/map', {
-      templateUrl: 'views/map.html',
-      controller: 'MainCtrl'
     }).when('/', {
       templateUrl: 'views/main.html',
       controller: 'MainCtrl'

@@ -229,7 +229,8 @@ class GMap
 
 
     updateLocation: ->
-        @location.url("/map?q=#{@center.lat},#{@center.lng}&t=#{@mapType}&z=#{@zoom}")
+        @location.url("/")
+        # @location.url("/map?q=#{@center.lat},#{@center.lng}&t=#{@mapType}&z=#{@zoom}")
 
     onDragStart: =>
         @dragging = on
