@@ -12,7 +12,7 @@ angular.module('of4App', [])
                 controller: 'MainCtrl'
             .when '/map',
                 templateUrl: 'views/map.html',
-                controller: 'MainCtrl'
+                controller: 'MapCtrl'
             .when '/',
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl'
