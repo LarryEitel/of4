@@ -47,6 +47,7 @@ class GMarker
         event.preventDefault()
         alert 'move'
 
+
 class GMap
     constructor: (options) ->
         # TODO: What is method to loop through option attribs and assign to @/this?
@@ -64,12 +65,20 @@ class GMap
             lng           = ll[1]
             @center =
             {lat: lat, lng: lng}
-            # console.log 'center q:' + @center
+            #console.log 'center q:' + @center
+            # console.log 'q:' + q
+            #console.log 'll:' + ll
         else
             @center = options.center
 
+#        @center = {lat: 9.988002927, lng: -84.20538052916}
+#        console.log 'q:' + @location.$$url
+#        console.log '@center.lat' + @center.lat
+#        console.log '@center.lng' + @center.lng
         @zoom = parseInt(@location.search().z) || options.zoom
         @mapType = @location.search().t || options.mapType
+
+        @location.url("map?q=#{@center.lat},#{@center.lng}&t=#{@mapType}&z=#{@zoom}")
 
         @navBarHeight = @rootScope.navBarHeight
 
@@ -131,7 +140,8 @@ class GMap
         @rootScope.mapZoom = @zoom
         @rootScope.mapType = @mapType
 
-        # @updateLocation
+#        @updateLocation
+#        @.win[0].google.maps.event.trigger(@map, 'resize')
 
     getDirections: =>
         console.log 'getDirections'
@@ -223,7 +233,10 @@ class GMap
 
     updateLocation: ->
         if @location.path() == "/map"
-            @location.url("#/map?q=#{@center.lat},#{@center.lng}&t=#{@mapType}&z=#{@zoom}")
+            console.log 'updatelocation'
+            console.log '@center.lat' + @center.lat
+            console.log '@center.lng' + @center.lng
+            @location.url("map?q=#{@center.lat},#{@center.lng}&t=#{@mapType}&z=#{@zoom}")
 
     onDragStart: =>
         @dragging = on

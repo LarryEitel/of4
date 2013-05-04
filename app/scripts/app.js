@@ -10,7 +10,8 @@
       controller: 'MainCtrl'
     }).when('/map', {
       templateUrl: 'views/map.html',
-      controller: 'MapCtrl'
+      controller: 'MapCtrl',
+      reloadOnSearch: false
     }).when('/about', {
       templateUrl: 'views/main.html',
       controller: 'MainCtrl'
@@ -20,8 +21,8 @@
   }).run(function($rootScope, $location, GoogleMap) {
     var rootScope;
     rootScope = $rootScope;
-    rootScope.map = null;
     rootScope.navBarHeight = 40;
+    console.log('run');
     return rootScope.mapShown = function() {
       var mapShown;
       mapShown = $location.path().indexOf('/map') > -1;

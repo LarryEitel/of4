@@ -12,7 +12,8 @@ angular.module('of4App', [])
                 controller: 'MainCtrl'
             .when '/map',
                 templateUrl: 'views/map.html',
-                controller: 'MapCtrl'
+                controller: 'MapCtrl',
+                reloadOnSearch : false
             .when '/about',
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl'
@@ -22,9 +23,9 @@ angular.module('of4App', [])
 
     .run ($rootScope, $location, GoogleMap) ->
         rootScope = $rootScope
-        rootScope.map = null
         rootScope.navBarHeight = 40
 
+        console.log 'run'
         # return true if path is for map
         rootScope.mapShown = ->
             mapShown = $location.path().indexOf('/map') > -1

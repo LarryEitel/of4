@@ -108,6 +108,7 @@
       }
       this.zoom = parseInt(this.location.search().z) || options.zoom;
       this.mapType = this.location.search().t || options.mapType;
+      this.location.url("map?q=" + this.center.lat + "," + this.center.lng + "&t=" + this.mapType + "&z=" + this.zoom);
       this.navBarHeight = this.rootScope.navBarHeight;
       this.win = $(window);
       this.crossHairLatEl = $('#mapcrosshairlat');
@@ -263,7 +264,10 @@
 
     GMap.prototype.updateLocation = function() {
       if (this.location.path() === "/map") {
-        return this.location.url("#/map?q=" + this.center.lat + "," + this.center.lng + "&t=" + this.mapType + "&z=" + this.zoom);
+        console.log('updatelocation');
+        console.log('@center.lat' + this.center.lat);
+        console.log('@center.lng' + this.center.lng);
+        return this.location.url("map?q=" + this.center.lat + "," + this.center.lng + "&t=" + this.mapType + "&z=" + this.zoom);
       }
     };
 
