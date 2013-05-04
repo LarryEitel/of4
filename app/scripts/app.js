@@ -11,24 +11,20 @@
     }).when('/map', {
       templateUrl: 'views/map.html',
       controller: 'MapCtrl'
-    }).when('/', {
+    }).when('/about', {
       templateUrl: 'views/main.html',
       controller: 'MainCtrl'
     }).otherwise({
-      templateUrl: 'views/main.html',
-      controller: 'MainCtrl'
+      redirectTo: '/map'
     });
-  }).run(function($rootScope, $location) {
+  }).run(function($rootScope, $location, GoogleMap) {
     var rootScope;
     rootScope = $rootScope;
+    rootScope.map = null;
     rootScope.navBarHeight = 40;
-    rootScope.mapShownOnce = false;
     return rootScope.mapShown = function() {
       var mapShown;
       mapShown = $location.path().indexOf('/map') > -1;
-      if (mapShown && !rootScope.mapShownOnce) {
-        rootScope.mapShownOnce = true;
-      }
       return mapShown;
     };
   });

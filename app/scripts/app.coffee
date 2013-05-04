@@ -13,26 +13,20 @@ angular.module('of4App', [])
             .when '/map',
                 templateUrl: 'views/map.html',
                 controller: 'MapCtrl'
-            .when '/',
+            .when '/about',
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl'
             .otherwise
-                templateUrl: 'views/main.html'
-                controller: 'MainCtrl'
+                redirectTo: '/map'
 
 
-    .run ($rootScope, $location) ->
+    .run ($rootScope, $location, GoogleMap) ->
         rootScope = $rootScope
+        rootScope.map = null
         rootScope.navBarHeight = 40
-        rootScope.mapShownOnce = false
 
         # return true if path is for map
         rootScope.mapShown = ->
-            # console.log 'rootScope.mapShown.location.path ' + $location.path()
             mapShown = $location.path().indexOf('/map') > -1
-
-            # need way to force Google Maps to load initial map!!
-            if mapShown and not rootScope.mapShownOnce
-                rootScope.mapShownOnce = true
 
             return mapShown

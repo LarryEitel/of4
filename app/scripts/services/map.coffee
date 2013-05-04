@@ -131,7 +131,7 @@ class GMap
         @rootScope.mapZoom = @zoom
         @rootScope.mapType = @mapType
 
-        # @updateLocation()
+        # @updateLocation
 
     getDirections: =>
         console.log 'getDirections'
