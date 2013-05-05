@@ -1,53 +1,4 @@
 'use strict';
-class GMarker
-    constructor: (@map, @lat, @lng) ->
-        @position = new google.maps.LatLng(@lat, @lng)
-        @render()
-
-    render: ->
-        @marker = new google.maps.Marker(
-            draggable: true
-        )
-
-        google.maps.event.addListener @marker, "dragend", @dragend
-        google.maps.event.addListener @marker, "click", @click
-
-        @show()
-
-    dragend: =>
-        if confirm("Are you sure you want to move this marker?")
-            # @model.set(lat:  @marker.position.lat(), lng: @marker.position.lng())
-            # @model.save()
-        else
-            # move back to original position
-            # @marker.setPosition( new google.maps.LatLng(@model.get('lat'), @model.get('lng')))
-
-    show: =>
-        @marker.setPosition(@position)
-
-        # title = ''
-        # @marker.setTitle(title)
-        @marker.setMap(@map)
-
-#  click: =>
-#    infoWindow = new InfoWindow()
-#
-#    # testing
-#    $('a#place-item-move.btn').live 'click', (event) ->
-#      #console.log 'event', event
-#      #event.preventDefault()
-#      console.log 'place-item-move'
-#
-#
-#    infoWindow.self.open(@map, @marker)
-
-
-    move: (event) =>
-        console.log 'move'
-        event.preventDefault()
-        alert 'move'
-
-
 class GMap
     constructor: (options) ->
         # TODO: What is method to loop through option attribs and assign to @/this?
@@ -233,10 +184,17 @@ class GMap
 
     updateLocation: ->
         if @location.path() == "/map"
-            console.log 'updatelocation'
-            console.log '@center.lat' + @center.lat
-            console.log '@center.lng' + @center.lng
+#            console.log '@center.lat ' + @center.lat
+#            console.log '@center.lng ' + @center.lng
+#            console.log '@mapType ' + @mapType
+#            console.log 'updatelocation before'
+            console.log @location.url()
+#            console.log @location.path()
             @location.url("map?q=#{@center.lat},#{@center.lng}&t=#{@mapType}&z=#{@zoom}")
+#            console.log 'updatelocation after'
+#            console.log @location.url()
+#            console.log @location.path()
+            @rootScope.$apply()
 
     onDragStart: =>
         @dragging = on
@@ -280,6 +238,57 @@ class GMap
         @rootScope.mapType = @mapType[0]
         @rootScope.$apply()
         @updateLocation()
+        console.log 'onTypeChange'
+
+
+class GMarker
+    constructor: (@map, @lat, @lng) ->
+        @position = new google.maps.LatLng(@lat, @lng)
+        @render()
+
+    render: ->
+        @marker = new google.maps.Marker(
+            draggable: true
+        )
+
+        google.maps.event.addListener @marker, "dragend", @dragend
+        google.maps.event.addListener @marker, "click", @click
+
+        @show()
+
+    dragend: =>
+        if confirm("Are you sure you want to move this marker?")
+            # @model.set(lat:  @marker.position.lat(), lng: @marker.position.lng())
+            # @model.save()
+        else
+            # move back to original position
+            # @marker.setPosition( new google.maps.LatLng(@model.get('lat'), @model.get('lng')))
+
+    show: =>
+        @marker.setPosition(@position)
+
+        # title = ''
+        # @marker.setTitle(title)
+        @marker.setMap(@map)
+
+#  click: =>
+#    infoWindow = new InfoWindow()
+#
+#    # testing
+#    $('a#place-item-move.btn').live 'click', (event) ->
+#      #console.log 'event', event
+#      #event.preventDefault()
+#      console.log 'place-item-move'
+#
+#
+#    infoWindow.self.open(@map, @marker)
+
+
+    move: (event) =>
+        console.log 'move'
+        event.preventDefault()
+        alert 'move'
+
 
 angular.module('of4App')
     .factory "GoogleMap", ($rootScope, $location) ->

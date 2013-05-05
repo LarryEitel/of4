@@ -7,8 +7,8 @@ angular.module('of4App')
         scope.routeParams = routeParams
         scope.location = location
         scope.$watch "routeParams", ((newVal, oldVal) ->
-            console.log "routeParams"
             angular.forEach newVal, (v, k) ->
+                console.log "routeParams"
                 location.search k, v
         ), true
     ]

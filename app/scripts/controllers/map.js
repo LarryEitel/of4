@@ -8,8 +8,8 @@
       scope.routeParams = routeParams;
       scope.location = location;
       return scope.$watch("routeParams", (function(newVal, oldVal) {
-        console.log("routeParams");
         return angular.forEach(newVal, function(v, k) {
+          console.log("routeParams");
           return location.search(k, v);
         });
       }), true);

@@ -13,7 +13,7 @@ angular.module('of4App', [])
             .when '/map',
                 templateUrl: 'views/map.html',
                 controller: 'MapCtrl',
-                reloadOnSearch : false
+                # reloadOnSearch : false
             .when '/about',
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl'

@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82e01941-e2db-4413-b115-9d70a9dcf622" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Larry\__prjs\yo\of4\dist\scripts\788ddb62.scripts.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.coffee" afterPath="$PROJECT_DIR$/app/scripts/app.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/map.coffee" afterPath="$PROJECT_DIR$/app/scripts/controllers/map.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/map.coffee" afterPath="$PROJECT_DIR$/app/scripts/services/map.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/map.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/map.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/map.js" afterPath="$PROJECT_DIR$/app/scripts/services/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="of4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +55,7 @@
     <file path="/main.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367520837347" ignored="false" />
     <file path="$PROJECT_DIR$/app/styles/bootstrap.css" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367444183961" ignored="false" />
     <file path="/menu.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367520828496" ignored="false" />
-    <file path="/map.coffee" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367707669676" ignored="false" />
+    <file path="/map.coffee" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367764231147" ignored="false" />
     <file path="/app.coffee" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367705000715" ignored="false" />
     <file path="/main.coffee" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367533728488" ignored="false" />
     <file path="/list.html" changelist="82e01941-e2db-4413-b115-9d70a9dcf622" time="1367520832545" ignored="false" />
@@ -84,8 +81,10 @@
       <file leaf-file-name="app.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="38" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="15" column="18" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1367764464554" expanded="true" signature="369:438" placeholder="templateUrl: 'views/map.html'..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,26 +110,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="map.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/map.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="8" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.058891457">
+            <state line="191" column="21" selection-start="6663" selection-end="6663" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#409#738#0" expanded="false" />
-                <element signature="e#4681#4821#0" expanded="false" />
-                <element signature="e#4960#5133#0" expanded="false" />
-                <element signature="e#5850#6002#0" expanded="false" />
-                <element signature="e#6051#6891#0" expanded="false" />
-                <element signature="e#6964#7566#0" expanded="false" />
+                <element signature="e#3449#3589#0" expanded="false" />
+                <element signature="e#3728#3901#0" expanded="false" />
+                <element signature="e#4618#4770#0" expanded="false" />
+                <element signature="e#4819#5659#0" expanded="false" />
+                <element signature="e#5732#6334#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="map.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/map.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="28" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+            <state line="10" column="16" selection-start="432" selection-end="432" vertical-scroll-proportion="0.1992966">
               <folding />
             </state>
           </provider>
@@ -163,15 +161,15 @@
         <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.coffee" />
-        <option value="$PROJECT_DIR$/app/scripts/app.coffee" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/map.coffee" />
+        <option value="$PROJECT_DIR$/app/scripts/app.coffee" />
         <option value="$PROJECT_DIR$/app/scripts/services/map.coffee" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1" />
-    <option name="width" value="1578" />
+    <option name="width" value="832" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -408,14 +406,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1578" height="1050" extended-state="0" />
+    <frame x="1" y="0" width="832" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978541" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22889182" sideWeight="0.6704036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22851562" sideWeight="0.6704036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -575,31 +573,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/map.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="15" column="18" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1367764464554" expanded="true" signature="369:438" placeholder="templateUrl: 'views/map.html'..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/map.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="8" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.058891457">
+        <state line="191" column="21" selection-start="6663" selection-end="6663" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#409#738#0" expanded="false" />
-            <element signature="e#4681#4821#0" expanded="false" />
-            <element signature="e#4960#5133#0" expanded="false" />
-            <element signature="e#5850#6002#0" expanded="false" />
-            <element signature="e#6051#6891#0" expanded="false" />
-            <element signature="e#6964#7566#0" expanded="false" />
+            <element signature="e#3449#3589#0" expanded="false" />
+            <element signature="e#3728#3901#0" expanded="false" />
+            <element signature="e#4618#4770#0" expanded="false" />
+            <element signature="e#4819#5659#0" expanded="false" />
+            <element signature="e#5732#6334#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/map.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="432" selection-end="432" vertical-scroll-proportion="0.1992966">
+          <folding />
         </state>
       </provider>
     </entry>

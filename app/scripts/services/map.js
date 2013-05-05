@@ -4,58 +4,6 @@
   var GMap, GMarker,
     _this = this;
 
-  GMarker = (function() {
-
-    function GMarker(map, lat, lng) {
-      var _this = this;
-      this.map = map;
-      this.lat = lat;
-      this.lng = lng;
-      this.move = function(event) {
-        return GMarker.prototype.move.apply(_this, arguments);
-      };
-      this.show = function() {
-        return GMarker.prototype.show.apply(_this, arguments);
-      };
-      this.dragend = function() {
-        return GMarker.prototype.dragend.apply(_this, arguments);
-      };
-      this.position = new google.maps.LatLng(this.lat, this.lng);
-      this.render();
-    }
-
-    GMarker.prototype.render = function() {
-      this.marker = new google.maps.Marker({
-        draggable: true
-      });
-      google.maps.event.addListener(this.marker, "dragend", this.dragend);
-      google.maps.event.addListener(this.marker, "click", this.click);
-      return this.show();
-    };
-
-    GMarker.prototype.dragend = function() {
-      if (confirm("Are you sure you want to move this marker?")) {
-
-      } else {
-
-      }
-    };
-
-    GMarker.prototype.show = function() {
-      this.marker.setPosition(this.position);
-      return this.marker.setMap(this.map);
-    };
-
-    GMarker.prototype.move = function(event) {
-      console.log('move');
-      event.preventDefault();
-      return alert('move');
-    };
-
-    return GMarker;
-
-  })();
-
   GMap = (function() {
     var geoSuccessCallback, geolocationError,
       _this = this;
@@ -264,10 +212,9 @@
 
     GMap.prototype.updateLocation = function() {
       if (this.location.path() === "/map") {
-        console.log('updatelocation');
-        console.log('@center.lat' + this.center.lat);
-        console.log('@center.lng' + this.center.lng);
-        return this.location.url("map?q=" + this.center.lat + "," + this.center.lng + "&t=" + this.mapType + "&z=" + this.zoom);
+        console.log(this.location.url());
+        this.location.url("map?q=" + this.center.lat + "," + this.center.lng + "&t=" + this.mapType + "&z=" + this.zoom);
+        return this.rootScope.$apply();
       }
     };
 
@@ -316,12 +263,65 @@
       }
       this.rootScope.mapType = this.mapType[0];
       this.rootScope.$apply();
-      return this.updateLocation();
+      this.updateLocation();
+      return console.log('onTypeChange');
     };
 
     return GMap;
 
   }).call(this);
+
+  GMarker = (function() {
+
+    function GMarker(map, lat, lng) {
+      var _this = this;
+      this.map = map;
+      this.lat = lat;
+      this.lng = lng;
+      this.move = function(event) {
+        return GMarker.prototype.move.apply(_this, arguments);
+      };
+      this.show = function() {
+        return GMarker.prototype.show.apply(_this, arguments);
+      };
+      this.dragend = function() {
+        return GMarker.prototype.dragend.apply(_this, arguments);
+      };
+      this.position = new google.maps.LatLng(this.lat, this.lng);
+      this.render();
+    }
+
+    GMarker.prototype.render = function() {
+      this.marker = new google.maps.Marker({
+        draggable: true
+      });
+      google.maps.event.addListener(this.marker, "dragend", this.dragend);
+      google.maps.event.addListener(this.marker, "click", this.click);
+      return this.show();
+    };
+
+    GMarker.prototype.dragend = function() {
+      if (confirm("Are you sure you want to move this marker?")) {
+
+      } else {
+
+      }
+    };
+
+    GMarker.prototype.show = function() {
+      this.marker.setPosition(this.position);
+      return this.marker.setMap(this.map);
+    };
+
+    GMarker.prototype.move = function(event) {
+      console.log('move');
+      event.preventDefault();
+      return alert('move');
+    };
+
+    return GMarker;
+
+  })();
 
   angular.module('of4App').factory("GoogleMap", function($rootScope, $location) {
     var SJO, initPosition, initZoom, mapOptions;

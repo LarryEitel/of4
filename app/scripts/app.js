@@ -10,8 +10,7 @@
       controller: 'MainCtrl'
     }).when('/map', {
       templateUrl: 'views/map.html',
-      controller: 'MapCtrl',
-      reloadOnSearch: false
+      controller: 'MapCtrl'
     }).when('/about', {
       templateUrl: 'views/main.html',
       controller: 'MainCtrl'
